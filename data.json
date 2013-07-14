@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "nanoblok": {
+      "title": "The Nanoblok Project",
+      "description": "Nanoblok started as a means to edit voxel graphics in order to produce versatile sprite graphics for video games. The intention was to render sprite graphics from many different angles and also allow for procedural generation, interactive editation, compressed animations, ",
+      "url": "http://code.google.com/p/nanoblok/",
+      "order": 1,
+      "dates": {
+        "start": 2007,
+        "end": 2012
+      },
+      "slides": [
+        {
+          "image": "",
+          "caption": "",
+          "link": ""
+        },
+      ]
+    }
+  }
+}
