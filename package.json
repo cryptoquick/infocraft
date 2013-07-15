@@ -1,0 +1,14 @@
+{
+  "name": "infocraft",
+  "private": true,
+  "version": "0.0.0",
+  "description": "the personal website of Hunter Trujillo",
+  "scripts": {
+    "build": "node build"
+  },
+  "repository": "https://github.com/cryptoquick/infocraft",
+  "author": "Hunter Trujillo",
+  "devDependencies": {
+    "swig": "~0.14.0"
+  }
+}

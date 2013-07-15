@@ -1,6 +1,7 @@
 // requires
 var fs = require('fs')
 var crypto = require('crypto')
+var swig = require('swig')
 
 // funcs
 function hash (str) {
@@ -34,9 +35,17 @@ var hashes = {
   bundle: hash(strings.js).substr(0, 8)
 }
 
+// json
+var json = JSON.parse(strings.data)
+
+// templating
+var tpl = swig.compileFile(__dirname + '/template.html')
+var content = tpl.render(json)
+
 // replace for searches in file
 strings.html = strings.html.replace(searches.styles, hashes.styles)
 strings.html = strings.html.replace(searches.bundle, hashes.bundle)
+strings.html = strings.html.replace(searches.content, content)
 
 // remove old files
 var out = 'dist'

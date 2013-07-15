@@ -1,21 +1,27 @@
 {
-  "projects": {
-    "nanoblok": {
-      "title": "The Nanoblok Project",
-      "description": "Nanoblok started as a means to edit voxel graphics in order to produce versatile sprite graphics for video games. The intention was to render sprite graphics from many different angles and also allow for procedural generation, interactive editation, compressed animations, ",
-      "url": "http://code.google.com/p/nanoblok/",
-      "order": 1,
+  "articles" : [
+    {
+      "type": "Project",
+      "title": "Nanoblok",
+      "id": "nanoblok",
+      "description": "Nanoblok started as a means to edit voxel graphics in order to produce versatile sprite graphics for video games. The intention was to render sprite graphics from many different angles and also allow for procedural generation, interactive editation, compressed animations, and even shading. Not many of those goals were actually attained, but much was learned regardless.",
+      "link": "http://code.google.com/p/nanoblok/",
       "dates": {
         "start": 2007,
         "end": 2012
       },
-      "slides": [
+      "figures": [
         {
           "image": "",
           "caption": "",
           "link": ""
         },
+        {
+          "image": "vektornye_voxSmiley.png",
+          "caption": "Nanoblok didn't start out of thin air. Preceeding it was Vektornye, an SVG & JavaScript experiment hosted on Google App Engine, and was meant to be more of a toy than a tool.",
+          "link": "http://vektornye.appspot.com/"
+        }
       ]
     }
-  }
+  ]
 }

@@ -1,0 +1,25 @@
+{% for article in articles %}
+  <article id="{{ article.id }}">
+    <a href="{{ article.link }}" target="_blank"><h1 class="article-title">{{ article.title }}</h1></a>
+    <h2 class="article-type">{{ article.type }}</h2>
+    {% if article.dates.start %}
+      <time class="year-start" datetime="{{ article.dates.start }}">{{ article.dates.start }}</time>&nbsp;-&nbsp;
+    {% endif %}
+    {% if article.dates.end %}
+      <time class="year-end" datetime="{{ article.dates.end }}">{{ article.dates.end }}</time>
+    {% endif %}
+    <section class="article-description">{{ article.description }}</section>
+    {% for figure in article.figures %}
+      <figure>
+        {%- if figure.image %}
+          {% if figure.link %} <a href="{{ figure.link }}" target="_blank"> {% endif %}
+            <img src="/images/{{ article.id }}/{{ figure.image }}">
+          {% if figure.link %} </a> {% endif %}
+        {%- endif %}
+        {% if figure.link %} <a href="{{ figure.link }}" target="_blank"> {% endif %}
+          <figcaption>{{ figure.caption }}</figcaption>
+        {% if figure.link %} </a> {% endif %}
+      </figure>
+    {% endfor %}
+  </article>
+{% endfor %}
