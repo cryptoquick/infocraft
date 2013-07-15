@@ -12,14 +12,71 @@
       },
       "figures": [
         {
-          "image": "",
-          "caption": "",
-          "link": ""
-        },
-        {
           "image": "vektornye_voxSmiley.png",
           "caption": "Nanoblok didn't start out of thin air. Preceeding it was Vektornye, an SVG & JavaScript experiment hosted on Google App Engine, and was meant to be more of a toy than a tool.",
           "link": "http://vektornye.appspot.com/"
+        },
+        {
+          "image": "nanoblok02.png",
+          "caption": "Very early versions of Nanoblok were made with RaphaelJS. As a project, Raphael was just starting out at the time, and although it was convenient, it was soon realized it wouldn't have the performance desired. Research for these prototypes was helpful, however, in determining the ratios and measurements of hexagons.",
+          "link": "http://trozki.org/demos/nanoblok/nb02/"
+        },
+        {
+          "image": "nanoblok-nb051.png",
+          "caption": "Sometimes during the development process, unexpected things can happen. And sometimes they're even pretty enough to screenshot!"
+        },
+        {
+          "image": "nanoblok-noise.png",
+          "caption": "An older version of Nanoblok rendering a procedural noise algorithm. It can be accessed with the N key.",
+          "link": "http://trozki.org/demos/nanoblok/nb07/"
+        },
+        {
+          "image": "nanoblok_sprites.jpg",
+          "caption": "The Nanoblok engine was originally created to make 2.5D isometric sprite graphics. This is the result of one of several algorithms designed to translate voxel graphics to sprite graphics using HTML5 canvas byte arrays."
+        },
+        {
+          "image": "nanoblok09.png",
+          "caption": "The Nanoblok 'tree' was created by an artist I had once given the tool to lend their feedback on. That model and others can be accessed with the E key in most versions of the editor. This is the first version using an orthographic 3D camera, with the SceneJS WebGL rendering engine by my friend and fellow JavaScript graphics enthusiast, Lindsay Kay.",
+          "link": "http://trozki.org/demos/nanoblok/nb09/"
+        },
+        {
+          "image": "nanoblok-r13-starfighter.png",
+          "caption": "Some of the last versions of the Nanoblok renderer used a sophisticated special spatial-recursive algorithm (similar to the one developed for Sphir) in order to render only the surface of a voxel volume, so as to avoid rendering extraneous interstitial geometry. The rendering engine used for this version was the now ubiquitous Three.js.",
+          "link": "http://trozki.org/demos/nanoblok/nb13/"
+        },
+        {
+          "image": "nanoblok_marching_cubes_alg.jpg",
+          "caption": "There are several algorithms that do this, but one technique to turn voxels into smoother, vertex/triangle-based 3D geometry is a technique known as 'Marching Cubes'. This was a sort of unimplemented 'easter egg' in one of the 3D versions of Nanoblok.",
+          "link": "http://en.wikipedia.org/wiki/Marching_cubes"
+        },
+        {
+          "image": "nanoblok11.png",
+          "caption": "In one of the later versions of Nanoblok, I even attempted to write my own 3D graphics renderer. It did a lot of 3D math, calculated normals, culled faces when they were pointing away, and even supported a simplified form of shading. The goal was a retro look, a return to the sprite graphics look & feel that was desired from the engine.",
+          "link": "http://trozki.org/demos/nanoblok/nb11/"
+        },
+        {
+          "image": "nanoblok-logo.png",
+          "caption": "The Nanoblok logo, inspired by the hexagonal geometry so intrinsic to the inner workings of the early, HTML5 canvas-based engines, had angles of exactly 26.565 degrees, and would find itself implemented in SVG, as a favicon, and even in CSS3."
+        }
+      ]
+    },
+    {
+      "type": "Tool",
+      "title": "Blender",
+      "id": "blender",
+      "description": "I've used Blender for lots of things in the past several years. It's a fun little tool that gets the job done, and it offers many, many features.",
+      "dates": {
+        "start": 2006
+      },
+      "figures": [
+        {
+          "image": "",
+          "caption": "",
+          "link": ""
+        },        {
+          "image": "",
+          "caption": "",
+          "link": ""
         }
       ]
     }
